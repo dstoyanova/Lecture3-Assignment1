@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75B09F681ACE7EDD00D17FD6 /* MMAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B09F671ACE7EDD00D17FD6 /* MMAUser.m */; };
+		75B09F6B1ACE878100D17FD6 /* MMAPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B09F6A1ACE878100D17FD6 /* MMAPaymentManager.m */; };
 		75D074A71ACDE6B0002A02A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D074A61ACDE6B0002A02A3 /* main.m */; };
 		75D074AA1ACDE6B0002A02A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D074A91ACDE6B0002A02A3 /* AppDelegate.m */; };
 		75D074AD1ACDE6B0002A02A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D074AC1ACDE6B0002A02A3 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75B09F661ACE7EDD00D17FD6 /* MMAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAUser.h; sourceTree = "<group>"; };
+		75B09F671ACE7EDD00D17FD6 /* MMAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAUser.m; sourceTree = "<group>"; };
+		75B09F691ACE878100D17FD6 /* MMAPaymentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAPaymentManager.h; sourceTree = "<group>"; };
+		75B09F6A1ACE878100D17FD6 /* MMAPaymentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAPaymentManager.m; sourceTree = "<group>"; };
 		75D074A11ACDE6B0002A02A3 /* Lecture3-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture3-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D074A51ACDE6B0002A02A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D074A61ACDE6B0002A02A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +95,10 @@
 				75D074B11ACDE6B0002A02A3 /* Images.xcassets */,
 				75D074B31ACDE6B0002A02A3 /* LaunchScreen.xib */,
 				75D074A41ACDE6B0002A02A3 /* Supporting Files */,
+				75B09F661ACE7EDD00D17FD6 /* MMAUser.h */,
+				75B09F671ACE7EDD00D17FD6 /* MMAUser.m */,
+				75B09F691ACE878100D17FD6 /* MMAPaymentManager.h */,
+				75B09F6A1ACE878100D17FD6 /* MMAPaymentManager.m */,
 			);
 			path = "Lecture3-1";
 			sourceTree = "<group>";
@@ -163,6 +173,7 @@
 		75D074991ACDE6B0002A02A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MMA;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Desislava Stoyanova";
 				TargetAttributes = {
@@ -219,8 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B09F6B1ACE878100D17FD6 /* MMAPaymentManager.m in Sources */,
 				75D074AD1ACDE6B0002A02A3 /* ViewController.m in Sources */,
 				75D074AA1ACDE6B0002A02A3 /* AppDelegate.m in Sources */,
+				75B09F681ACE7EDD00D17FD6 /* MMAUser.m in Sources */,
 				75D074A71ACDE6B0002A02A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +425,7 @@
 				75D074C61ACDE6B0002A02A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75D074C71ACDE6B0002A02A3 /* Build configuration list for PBXNativeTarget "Lecture3-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +434,7 @@
 				75D074C91ACDE6B0002A02A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MMAUser.h"
+#import "MMAPaymentManager.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *product1Price;
+@property (weak, nonatomic) IBOutlet UILabel *product2Price;
+@property (weak, nonatomic) IBOutlet UILabel *product3Price;
 
 @end
-
